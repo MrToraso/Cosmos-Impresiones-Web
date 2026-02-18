@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cosmos Impresiones | Stickers & Imprenta</title>
+  <meta name="description" content="Stickers, vinilos resistentes al agua, holográficos y esferas navideñas personalizadas. Pedí por WhatsApp." />
+  <meta name="theme-color" content="#0b0b1a" />
+  <link rel="preload" as="image" href="assets/hero.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg">
+    <div class="stars"></div>
+    <div class="nebula"></div>
+  </div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#">
+        <img class="brand__logo" src="assets/logo.png" alt="Cosmos Impresiones" />
+        <div class="brand__text">
+          <strong>Cosmos Impresiones</strong>
+          <small>Tucumán,Argentina</small>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#catalogo">Productos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto" class="btn btn--small">Pedir</a>
+      </nav>
+
+      <button class="menu" id="menuBtn" aria-label="Abrir menú">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__left">
+          <p class="pill">✨ Stickers • Vinilos • Holográficos</p>
+          <h1>Impresiones con vibra cósmica.</h1>
+          <p class="muted">Rápido, prolijo y a medida. Precios: <strong>consultar</strong>.</p>
+
+          <div class="hero__cta">
+            <a class="btn" id="waHero" href="#" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn--ghost" href="#catalogo">Ver productos</a>
+          </div>
+
+          <div class="hero__chips">
+            <span class="chip2">Resistentes al agua</span>
+            <span class="chip2">Personalizados</span>
+            <span class="chip2">San Miguel de Tucumán</span>
+          </div>
+        </div>
+
+        <div class="hero__right">
+          <div class="heroCard">
+            <img class="heroImg" src="assets/hero.png" alt="Stickers Cosmos Impresiones" />
+            <div class="heroCard__glow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="catalogo">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h2>Productos</h2>
+            <p class="muted">Elegí uno y consultá por WhatsApp.</p>
+          </div>
+        </div>
+
+        <div class="grid" id="products">
+          <article class="product card" data-cat="stickers">
+            <div class="gallery">
+              <img src="assets/stickers1.png" alt="Stickers comunes" loading="lazy" />
+              <img src="assets/stickers2.png" alt="Stickers comunes" loading="lazy" />
+            </div>
+            <div class="pbody">
+              <h3>Stickers comunes</h3>
+              <p class="muted small">Para notebooks, cuadernos, regalos y más.</p>
+              <div class="actions">
+                <button class="btn btn--small add" data-name="Stickers comunes">Consultar</button>
+                <span class="tag">Consultar precio</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product card" data-cat="vinilos">
+            <div class="gallery">
+              <img src="assets/vinilo1.png" alt="Vinilos resistentes al agua" loading="lazy" />
+              <img src="assets/vinilo2.png" alt="Vinilos resistentes al agua" loading="lazy" />
+            </div>
+            <div class="pbody">
+              <h3>Vinilos resistentes al agua</h3>
+              <p class="muted small">Ideales para termos, botellas y exteriores.</p>
+              <div class="actions">
+                <button class="btn btn--small add" data-name="Vinilos resistentes al agua">Consultar</button>
+                <span class="tag">Consultar precio</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product card" data-cat="holo">
+            <div class="gallery">
+              <img src="assets/holo1.png" alt="Stickers holográficos" loading="lazy" />
+              <img src="assets/holo2.png" alt="Stickers holográficos" loading="lazy" />
+            </div>
+            <div class="pbody">
+              <h3>Stickers holográficos</h3>
+              <p class="muted small">Brillo y efecto para destacar tu diseño.</p>
+              <div class="actions">
+                <button class="btn btn--small add" data-name="Stickers holográficos">Consultar</button>
+                <span class="tag">Consultar precio</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product card" data-cat="navidad">
+            <div class="gallery">
+              <img src="assets/esferas1.png" alt="Esferas navideñas personalizadas" loading="lazy" />
+              <img src="assets/esferas2.png" alt="Esferas navideñas personalizadas" loading="lazy" />
+            </div>
+            <div class="pbody">
+              <h3>Esferas navideñas personalizadas</h3>
+              <p class="muted small">Un regalo único, con tu foto o diseño.</p>
+              <div class="actions">
+                <button class="btn btn--small add" data-name="Esferas navideñas personalizadas">Consultar</button>
+                <span class="tag">Consultar precio</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <div class="faq">
+          <details class="card" open>
+            <summary>¿Hacen personalizados?</summary>
+            <p class="muted">Sí. Mandás tu idea/imagen y te decimos opciones y tiempos.</p>
+          </details>
+          <details class="card">
+            <summary>¿Cómo pido?</summary>
+            <p class="muted">Tocás “WhatsApp”, contás qué querés (cantidad/medida) y coordinamos.</p>
+          </details>
+          <details class="card">
+            <summary>¿Precios?</summary>
+            <p class="muted">Depende de medida, cantidad y material. Todo es <strong>consultar</strong>.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="container contact">
+        <div class="card contact__card">
+          <h2>Contacto</h2>
+          <p class="muted">Respondemos por WhatsApp e Instagram.</p>
+
+          <div class="rows">
+            <div class="row"><span class="k">WhatsApp</span><span class="v" id="waText"></span></div>
+            <div class="row"><span class="k">Instagram</span><span class="v">@cosmos.impresiones</span></div>
+            <div class="row"><span class="k">Ciudad</span><span class="v">San Miguel de Tucumán</span></div>
+          </div>
+
+          <div class="hero__cta">
+            <a class="btn" id="waFooter" href="#" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+            <a class="btn btn--ghost" href="https://instagram.com/cosmos.impresiones" target="_blank" rel="noopener">Ver Instagram</a>
+          </div>
+        </div>
+
+        <form class="card contact__form" id="contactForm">
+          <h3>Pedido rápido</h3>
+          <label>
+            Nombre
+            <input required name="name" placeholder="Tu nombre" />
+          </label>
+          <label>
+            Producto
+            <select required name="product">
+              <option value="">Elegí…</option>
+              <option>Stickers comunes</option>
+              <option>Vinilos resistentes al agua</option>
+              <option>Stickers holográficos</option>
+              <option>Esferas navideñas personalizadas</option>
+            </select>
+          </label>
+          <label>
+            Detalles
+            <textarea required name="details" rows="4" placeholder="Cantidad, medida, material, para cuándo…"></textarea>
+          </label>
+          <button class="btn" type="submit">Enviar</button>
+          <p class="muted small">Se abre WhatsApp con el mensaje listo.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <small class="muted">© <span id="year"></span> Cosmos Impresiones</small>
+      <a class="muted small" href="#top">Arriba ↑</a>
+    </div>
+  </footer>
+
+  <a class="float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+  <script src="app.js"></script>
+</body>
+</html>
